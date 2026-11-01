@@ -1,0 +1,7 @@
+This study highlights the potential of the fine-tuned Florence-2 model (a vision foundational model developed by Microsoft) for Visual Question Answering (VQA) in remote sensing applications. While pre-trained Florence-2 excels in multimodal tasks, direct application to remote sensing is insufficient due to domain-specific challenges such as diverse imagery and complex query types. To address this, we fine-tuned Florence-2 on the RSVQA small dataset, consisting of 772 remote sensing images and approximately 100 questions per image.
+
+The fine-tuned Florence-2 model was evaluated against other existing models, including ViLBERT and LXMERT, showing superior performance in different questions with an average improvement of X\%. Results demonstrate that Florence-2 excels in descriptive and locational queries, achieving a significant improvement in accuracy and F1 scores compared to baselines. This research establishes benchmarks for remote sensing VQA and demonstrates the effectiveness of fine-tuning domain-specific vision-language models for geospatial analysis.
+
+
+
+Visual Question Answering, Remote Sensing, Florence 2, Multimodal AI

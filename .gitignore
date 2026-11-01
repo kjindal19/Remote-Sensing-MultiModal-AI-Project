@@ -1,0 +1,24 @@
+project/venv/*
+major minor/**
+
+# Large model weights
+project/model/model.safetensors
+app/model/model.safetensors
+**/model.safetensors
+
+# Large archives and temp files
+project/project.zip
+project/temp.png
+project/.gradio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset (too large for git)
+data/
